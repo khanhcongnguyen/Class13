@@ -6,7 +6,7 @@
 }
 
 .flex-container > div {
-  background-color:ivory;
+  background-color:whitesmoke;
   width:40%;
   margin:10px;
   padding:20px;
@@ -17,4 +17,16 @@
   .flex-container {
     flex-direction: row;
   }
+  .flex-container > div {
+    width:80%;
+  }
+#one {
+  background-color:red;
+}
+#two {
+  background-color:green;
+}
+#three {
+  background-color:blue;
+}
 }
